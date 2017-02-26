@@ -17,4 +17,11 @@ c.TerminalInteractiveShell.highlighting_style = theme.Base16Style
 c.TerminalInteractiveShell.highlighting_style_overrides = theme.overrides
 ```
 
+This is how it looks side-to-side with vim base16:
+
+![Screenshot: dwm + urxvt + vim + ipython + prompt-toolkit](screenshot.png)
+
+I strived to make prompt-toolkit themes resemble vim themes as much as possible,
+but not all syntax categories of vim are present in prompt-toolkit.
+
 That's it!
