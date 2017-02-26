@@ -1,6 +1,4 @@
-# Base16 for
-[prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit) (and
-[ipython](https://ipython.org/)!)
+# Base16 for [prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit) (and [ipython](https://ipython.org/)!)
 
 Clone this somewhere such that the directory `base16` is in (or is symlinked
 from) your `PYTHONPATH`.
