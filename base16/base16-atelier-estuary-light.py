@@ -2,7 +2,7 @@
 
 # base16-prompt-toolkit (https://github.com/memeplex/base16-prompt-toolkit)
 # Base16 Prompt Toolkit template by Carlos Pita (carlosjosepita@gmail.com
-# Atelier Estuary scheme by Bram de Haan (http://atelierbramdehaan.nl)
+# Atelier Estuary Light scheme by Bram de Haan (http://atelierbramdehaan.nl)
 
 from prompt_toolkit.terminal.vt100_output import _256_colors
 from pygments.style import Style
@@ -50,7 +50,7 @@ class Base16Style(Style):
         Error: '%s bold' % base08,
         Comment: base03,
         Keyword: base0E,
-        Keyword.Constant: base0D,
+        Keyword.Constant: base09,
         Keyword.Namespace: base0D,
         Name.Builtin: base0D,
         Name.Function: base0D,
@@ -58,7 +58,7 @@ class Base16Style(Style):
         Name.Decorator: base0E,
         Name.Exception: base08,
         Number: base09,
-        Operator.Word: base0D,
+        Operator: base0E,
         Literal: base0B,
         String: base0B
     }

@@ -50,7 +50,7 @@ class Base16Style(Style):
         Error: '%s bold' % base08,
         Comment: base03,
         Keyword: base0E,
-        Keyword.Constant: base0D,
+        Keyword.Constant: base09,
         Keyword.Namespace: base0D,
         Name.Builtin: base0D,
         Name.Function: base0D,
@@ -58,7 +58,7 @@ class Base16Style(Style):
         Name.Decorator: base0E,
         Name.Exception: base08,
         Number: base09,
-        Operator.Word: base0D,
+        Operator: base0E,
         Literal: base0B,
         String: base0B
     }

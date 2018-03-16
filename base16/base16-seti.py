@@ -13,7 +13,7 @@ from pygments.token import (Keyword, Name, Comment, String, Error, Text,
 # of the different colors in the base16 palette.
 
 base00 = '#151718'
-base01 = '#8ec43d'
+base01 = '#282a2b'
 base02 = '#3B758C'
 base03 = '#41535B'
 base04 = '#43a5d5'
@@ -50,7 +50,7 @@ class Base16Style(Style):
         Error: '%s bold' % base08,
         Comment: base03,
         Keyword: base0E,
-        Keyword.Constant: base0D,
+        Keyword.Constant: base09,
         Keyword.Namespace: base0D,
         Name.Builtin: base0D,
         Name.Function: base0D,
@@ -58,7 +58,7 @@ class Base16Style(Style):
         Name.Decorator: base0E,
         Name.Exception: base08,
         Number: base09,
-        Operator.Word: base0D,
+        Operator: base0E,
         Literal: base0B,
         String: base0B
     }
