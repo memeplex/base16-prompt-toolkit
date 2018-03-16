@@ -1,0 +1,7 @@
+#!/bin/bash
+
+pybase16 update
+pybase16 build
+root=~/dev/base16-prompt-toolkit
+rm -rf $root/base16
+mv $root/build/output/prompt-toolkit/base16 $root
