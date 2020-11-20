@@ -6,7 +6,7 @@
 
 try:
   # older than v2
-  from prompt_toolkit.terminal.vt100_output import _256_colors
+  from prompt_toolkit.output.vt100 import _256_colors
 except ModuleNotFoundError:
   # version 2
   from prompt_toolkit.formatted_text.ansi import _256_colors
